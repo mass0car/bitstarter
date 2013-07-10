@@ -3,8 +3,8 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-var getContent = function(fileiname) {
-  var buffer = fs.readFileSync(filename);
+var getContent = function(filename) {
+  var buffer = fs.readFileSync( ilename);
   return buffer.toString();
 };
 
